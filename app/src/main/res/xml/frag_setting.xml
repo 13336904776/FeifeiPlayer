@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<PreferenceCategory-->
+        <!--android:title="aaaa"-->
+        <!--android:key="aa"-->
+        <!--&gt;-->
+        <Preference
+            android:key="sp_clear_cache"
+            android:title="清除缓存"/>
+        <SwitchPreference
+            android:key="sp_push"
+            android:title="推送通知"/>
+        <SwitchPreference
+            android:key="sp_no_wifi"
+            android:title="非wifi下加载图片"/>
+        <Preference
+            android:key="sp_about"
+            android:title="关于"/>
+    <!--</PreferenceCategory>-->
+    <!--<PreferenceCategory-->
+        <!--android:title="bbbb"-->
+        <!--android:key="bb"-->
+        <!--&gt;-->
+        <!--<Preference-->
+            <!--android:key="clear_cache2"-->
+            <!--android:title="清除缓存"/>-->
+        <!--<SwitchPreference-->
+            <!--android:key="push2"-->
+            <!--android:title="推送通知"/>-->
+
+    <!--</PreferenceCategory>-->
+
+    <!--<PreferenceScreen-->
+        <!--android:key="button_voicemail_category_key"-->
+        <!--android:title="ccc"-->
+        <!--android:persistent="false">-->
+        <!--<SwitchPreference-->
+            <!--android:key="no_wifi2"-->
+            <!--android:title="非wifi下加载图片"/>-->
+        <!--<Preference-->
+            <!--android:key="about2"-->
+            <!--android:title="关于"/>-->
+    <!--</PreferenceScreen>-->
+
+</PreferenceScreen>
